@@ -2,6 +2,10 @@ package ex3;
 
 public class ZooApplication {
 
+	
+	/** 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Zoo zoo = new Zoo("Thoiry");
 		

@@ -1,12 +1,18 @@
 package ex1;
 
-public class calcul {
+public class Calcul {
 
-	public int get1(int a, int b){
+	
+	/** 
+	 * @param a
+	 * @param b
+	 * @return int
+	 */
+	public int getSomme(int a, int b){
 		return a+b;
 	}
 	
-	public int get2(int a, int b){
+	public int getSoustraction(int a, int b){
 		return a-b;
 	}
 }

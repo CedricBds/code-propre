@@ -8,7 +8,9 @@ public class Caisse {
 	private String nom;
 	private List<Item> items;
 
-	/** Constructeur
+	/**
+	 * Constructeur
+	 * 
 	 * @param nom
 	 */
 	public Caisse(String nom) {
@@ -17,32 +19,44 @@ public class Caisse {
 		this.items = new ArrayList<>();
 	}
 
-	/** Getter pour l'attribut nom
+	/**
+	 * Getter pour l'attribut nom
+	 * 
 	 * @return the nom
 	 */
 	public String getNom() {
 		return nom;
 	}
 
-	/** Setter pour l'attribut nom
+	/**
+	 * Setter pour l'attribut nom
+	 * 
 	 * @param nom the nom to set
 	 */
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
 
-	/** Getter pour l'attribut items
+	/**
+	 * Getter pour l'attribut items
+	 * 
 	 * @return the items
 	 */
 	public List<Item> getItems() {
 		return items;
 	}
 
-	/** Setter pour l'attribut items
+	/**
+	 * Setter pour l'attribut items
+	 * 
 	 * @param items the items to set
 	 */
 	public void setItems(List<Item> items) {
 		this.items = items;
 	}
-	
+
+	public boolean verificationPoids(double poids) {
+		return true;
+	}
+
 }

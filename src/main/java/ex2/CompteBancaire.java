@@ -60,18 +60,8 @@ public class CompteBancaire {
 				this.solde = solde - montant;
 			}	
 		}
-		else if (type.equals("LA")){
-			if (this.solde - montant > 0){
-				this.solde = solde - montant;
-			}	
-		}
 	}
 	
-	public void appliquerRemuAnnuelle(){
-		if (type.equals("LA")){
-			this.solde = solde + solde*tauxRemuneration/100;
-		}
-	}
 	
 	/** Getter for solde
 	 * @return the solde

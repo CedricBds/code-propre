@@ -14,6 +14,10 @@ public class Inventaire {
 		caisses.add(new Caisse("Grands objets"));
 	}
 
+	
+	/** 
+	 * @param item
+	 */
 	public void addItem(Item item) {
 
 		//TODO Faites évoluer ce code (idée: c'est le caisse qui doit "savoir" si elle peut accepter un objet ou non)
